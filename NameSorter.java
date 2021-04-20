@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class NameSorter {
 	public static void main(String[] args) throws IOException {
 		//Initialize the file to be read
-		File file = new File("D:\\unsorted-names-list.txt");
+		File file = new File("unsorted-names-list.txt");
 		
 		//Check if the file exists
 		if (file.exists()) {
@@ -42,7 +42,7 @@ public class NameSorter {
 			}
 			
 			//Create the output file
-			BufferedWriter bw = new BufferedWriter(new FileWriter("D:\\sorted-names-list.txt"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("sorted-names-list.txt"));
 			
 			for (String name: names) {
 				//Print the result
